@@ -271,4 +271,12 @@ nav {
       width: 30% !important; }
   .cr-text {
     height: 90% !important;
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  nav ul li {
+    margin: 0 0.3em;
+    }
+  .content {
+    width: 100% !important;
+    overflow: scroll;
+    } }

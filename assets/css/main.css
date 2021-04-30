@@ -1,3 +1,15 @@
+@media screen and (max-width: 650px) {
+  .info-block .content-left h1 {
+    font-size: 70px;
+    word-spacing: 2px;
+    line-height: 65px;
+  }
+
+  .foot-note {
+    font-size: 24px;
+    word-spacing: 2px;
+  }
+}
 @font-face {
   font-family: "Playfair Display";
   font-style: normal;
@@ -28,7 +40,6 @@ body {
 
 .is-current {
   color: #fff;
-  text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -122,7 +133,7 @@ body {
   color: #FFF5F0;
   font-style: italic;
   font-weight: bold;
-  font-size: 110px;
+  font-size: 116px;
   text-align: center;
   letter-spacing: 0px;
   line-height: 90px;
@@ -205,6 +216,17 @@ body {
   font-size: 17px;
   position: relative;
   color: #d6d0d0;
+}
+
+.nav-dropdown-style {
+  border-color: transparent;
+  margin: 10px;
+}
+
+.navbar-toggler-icon {
+  background-image: url(file:///C:/Users/Kevin/Documents/GitHub/zetahvdev.github.io/assets/imgs/white-menu-icon-0.jpg) !important;
+  color: white;
+  background-size: 300%;
 }
 
 nav {

@@ -1,4 +1,5 @@
 @use 'tools/functions';
+@import 'tools/_media-queries';
 
 @font-face {
   font-family: 'Playfair Display';
@@ -27,7 +28,6 @@ body {
 
 .is-current {
   color: #fff;
-  text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -110,7 +110,7 @@ body {
         color: #FFF5F0;
         font-style: italic;
         font-weight: bold;
-        font-size: 110px;
+        font-size: 116px;
         text-align: center;
         letter-spacing: 0px;
         line-height: 90px;
@@ -190,6 +190,17 @@ $container-left-padding: 65px;
   font-size: 17px;
   position: relative;
   color: #d6d0d0;
+}
+
+.nav-dropdown-style {
+  border-color:transparent;
+  margin: 10px;
+}
+
+.navbar-toggler-icon {
+  background-image: url(file:///C:/Users/Kevin/Documents/GitHub/zetahvdev.github.io/assets/imgs/white-menu-icon-0.jpg) !important;
+  color: white;
+  background-size: 300%;
 }
 
 nav {
